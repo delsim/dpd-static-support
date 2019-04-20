@@ -1,0 +1,10 @@
+grip
+pylint
+pytest>=3.6
+pytest-cov
+python-coveralls
+pytz
+sphinx
+sphinx-autobuild
+twine
+
