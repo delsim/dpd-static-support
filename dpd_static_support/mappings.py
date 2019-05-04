@@ -1,11 +1,15 @@
 # Direct substitution mappings
 
-substitutions = [
+static_substitutions = [
 
-    ('https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css','/static/dpd_static_support/css'),
-    ('https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js','/static/dpd_static_support/js'),
-    ("https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd", '/static/dpd_static_support/js'),
-    ("https://code.jquery.com/jquery-3.3.1.min.js", "/static/dpd_static_support/js/jquery-3.3.1.min.js"),
+    ('https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css','dpd_static_support/css'),
+    ('https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js','dpd_static_support/js'),
+    ("https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd", 'dpd_static_support/js'),
+    ("https://code.jquery.com/jquery-3.3.1.min.js", "dpd_static_support/js/jquery-3.3.1.min.js"),
+
+]
+
+substitutions = [
 
     ('integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"', ''),
     ('integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"', ''),
